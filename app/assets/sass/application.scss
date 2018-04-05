@@ -9,7 +9,6 @@ $path: "/public/images/";
 // Take a look at in app/assets/sass/patterns/ to see which files are imported.
 @import 'patterns/check-your-answers';
 @import 'patterns/task-list';
-
 // Related items
 // (These styles will be moved to GOV.UK elements, duplicating here for now.)
 .govuk-related-items {
@@ -26,6 +25,38 @@ $path: "/public/images/";
     margin-bottom: 10px;
     list-style-type: none;
   }
+}
+
+.border {
+  border-style: solid;
+  border-color: black;
+}
+
+.page-top-margin {
+  margin-top: 30px;
+}
+
+.p-spacing {
+  margin-bottom: 5px;
+}
+
+.header-bar {
+  background-color: #005ea5;
+  margin-top: -10px;
+  height: 125px;
+}
+
+.header-title {
+  color: white;
+  margin-left: 240px;
+  padding-top: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header-text {
+  color: white;
+  margin-left: 240px;
 }
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
