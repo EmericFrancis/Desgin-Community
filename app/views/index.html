@@ -6,82 +6,52 @@
 
 {% block content %}
 
-<div class="header-bar">
-  <h1 class="header-title heading-xlarge">Design Community</h1>
-  <p class="header-text">
-    A collabrative space for designers adn content designers to share knowledge
-    and useful tools
-  </p>
-</div>
-
 <main id="content" role="main">
-
-  <div class="grid-row page-top-margin">
-
-    <div class="column-one-third" padding>
-      <p class="p-spacing bold">
-        <a href="#"> Prototyping</a>
-      </p>
-      <p>
-        This is placeholder text in here there will be a description
-        of the content this area of the website contians
-      </p>
-    </div>
-
-    <div class="column-one-third">
-      <p class="p-spacing bold">
-        <a href="#">Tools</a>
-      </p>
-      <p>
-        This is placeholder text in here there will be a description
-        of the content this area of the website contians
-      </p>
-    </div>
-
-    <div class="column-one-third">
-      <p class="p-spacing bold">
-        <a href="#">Team</a>
-      </p>
-      <p>
-        This is placeholder text in here there will be a description
-        of the content this area of the website contians
-      </p>
-    </div>
-
-  </div>
-
   <div class="grid-row">
+    <div class="column-two-thirds">
 
-    <div class="column-one-third">
-      <p class="p-spacing bold">
-        <a href="#"> Content</a>
-      </p>
-      <p>
-        This is placeholder text in here there will be a description
-        of the content this area of the website contians
-      </p>
+      <h1 class="heading-xlarge">
+        The GOV.UK prototype kit
+        <span class="heading-secondary">{{releaseVersion}}</span>
+      </h1>{{releaseVersion | log }}
+      <p>This kit lets you rapidly create HTML prototypes of GOV.UK services.</p>
+
+      <p>It contains all you need to prototype anything from simple static pages to complex, data-driven transactions.</p>
+
+      <h2 class="heading-medium">About this page</h2>
+
+      <p>We recommend you add links to your prototype to this page, rather than delete it.
+        You'll find this page in the kit at '/app/views/index.html'.</p>
+      <p>You can change the service name by editing the file '/app/config.js'.</p>
+
+			<h2 class="heading-medium">Examples and documentation</h2>
+
+			<ul class="list list-bullet">
+				<li><a href="/docs/tutorials-and-examples">Example pages and documentation</a></li>
+				<li><a href="https://github.com/alphagov/govuk_prototype_kit">GitHub</a></li>
+			</ul>
+
+      <h2 class="heading-medium">Other resources</h2>
+
+			<ul class="list list-bullet">
+				<li>
+					<a href="https://govuk-elements.herokuapp.com/snippets/">
+						Guide to GOV.UK Elements
+					</a>
+				</li>
+				<li>
+					<a href="https://www.gov.uk/service-manual">
+						Service design manual
+					</a>
+				</li>
+				<li>
+					<a href="https://www.gov.uk/design-principles">
+						Government Digital Service Design Principles
+					</a>
+				</li>
+			</ul>
+
     </div>
-
-    <div class="column-one-third">
-      <p class="p-spacing bold">
-        <a href="#">Principles</a>
-      </p>
-      <p>
-        This is placeholder text in here there will be a description
-        of the content this area of the website contians
-      </p>
-    </div>
-
-    <div class="column-one-third">
-      <p class="p-spacing bold">
-        <a href="#">Library</a>
-      </p>
-      <p>
-        This is placeholder text in here there will be a description
-        of the content this area of the website contians
-      </p>
-    </div>
-
   </div>
 </main>
 
