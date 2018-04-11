@@ -6,6 +6,16 @@
 
 {% block content %}
 
+<style>
+#footer {display:none;}
+#global-header-bar {display:none;}
+.header-logo {display:none;}
+@font-face {font-family: Helvetica;}
+#content {color: #000000}
+h2 {color: black;}
+h1.homepage-header {font-size: 36px; font-weight: bold;}
+</style>
+
 <main id="content" role="main">
   <div class="grid-row">
     <div class="column-two-thirds">
@@ -17,19 +27,28 @@
         <fieldset class="form-group">
           <legend>
             <h1 class="heading-large">
-              Install prototype kit
+              prototype kit
             </h1>
             <p class="body-text">
               To learn how to use the prototype kit for GOV.UK style prototypes
             </p>
           </legend>
 
+          <h1 class="heading-medium">
+            Prototype kit links
+          </h1>
+
+          <ul class="list list-bullet">
+            <li><a href="https://govuk-prototype-kit.herokuapp.com/docs">Download the kit.</a></li>
+            <p></p>
+            <li><a href="https://docs.google.com/document/d/1qDkutvVb0FYmUGLMH0EG7bnuX5Ez-yD4IBPmhXqUxew/edit">Tutorial.</a></li>
+            <p></p>
+            <li><a href="https://ukgovernmentdigital.slack.com/messages/C0647LW4R/">Slack discussion channel.</a></li>
+            <p></p>
+          </ul>
+
 
         </fieldset>
-
-        <div class="form-group">
-          <input class="button" type="submit" value="Continue">
-        </div>
 
       </form>
 
