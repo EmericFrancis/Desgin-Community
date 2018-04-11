@@ -1,0 +1,68 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<style>
+#footer {display:none;}
+#global-header-bar {display:none;}
+.header-logo {display:none;}
+@font-face {font-family: Helvetica;}
+#content {color: #000000}
+h2 {color: black;}
+h1.homepage-header {font-size: 36px; font-weight: bold;}
+</style>
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <a class="link-back" href="starterguide">Back</a>
+
+      <form class="form">
+
+        <fieldset class="form-group">
+          <legend>
+            <h1 class="heading-large">
+              Get added to email distrubution list
+            </h1>
+            <p class="body-text">
+              To access team emails
+            </p>
+          </legend>
+
+          <h1 class="heading-medium">
+            Create Request for service
+          </h1>
+
+          <ul class="list list-bullet">
+            <li>To join the group email distrubution list you will need to raise a Request for Service via 'MySelfService'.</li>
+            <p></p>
+            <li>Go to the 'Start' menu and select 'All Programs'.  'MySelfService' is under #F6 MY REQUEST HUB'.</li>
+            <p></p>
+            <img src="/public/images/startmenu.png" alt="Start Menu">
+            <p></p>
+            <li>You will then see the main option screen of the mySelfService.  Click on 'Standard IT request' and then type 'email' to find the 'Modify Email Distrubtion List' option.</li>
+            <p></p>
+            <img src="/public/images/myselfservice.png" alt="my self service" style="width:1000px;height:500px;">
+            <p></p>
+            <li>Click on this option, fill out your details and click 'Raise Request'.  The name of the distrubution list is 'Design and content design'</li>
+            <p></p>
+            <img src="/public/images/email.png" alt="email" style="width:1000px;height:500px;">
+            <p></p>
+            <li>You will receive an email with the request number which you can use in the Marvel system to check progress of your request.</li>
+            <p></p>
+          </ul>
+
+        </fieldset>
+
+      </form>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
