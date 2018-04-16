@@ -59,4 +59,12 @@ $path: "/public/images/";
   margin-left: 240px;
 }
 
+#footer {display:none;}
+#global-header-bar {display:none;}
+.header-logo {display:none;}
+@font-face {font-family: Helvetica;}
+#content {color: #000000;}
+h2 {color: #000000;}
+h1.homepage-header {font-size: 36px; font-weight: bold;}
+
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
