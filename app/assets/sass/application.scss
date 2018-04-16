@@ -21,6 +21,8 @@ $path: "/public/images/";
     margin-bottom: 0.5em;
   }
 
+// added css below for page index1
+
   li {
     margin-bottom: 10px;
     list-style-type: none;
@@ -58,6 +60,15 @@ $path: "/public/images/";
   color: white;
   margin-left: 240px;
 }
+
+// added css for design principles page
+
+.title-spacing{
+  margin-left: 415px;
+}
+
+
+// added css for font styling
 
 #footer {display:none;}
 #global-header-bar {display:none;}
