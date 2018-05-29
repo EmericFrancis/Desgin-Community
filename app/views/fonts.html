@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Fonts
+{% endblock %}
+
+{% block content %}
+
+<style>
+#footer {display:none;}
+#global-header-bar {display:none;}
+.header-logo {display:none;}
+@font-face {font-family: Helvetica;}
+#content {color: #000000}
+h2 {color: black;}
+h1.homepage-header {font-size: 36px; font-weight: bold;}
+</style>
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <a class="link-back" href="homepage">Back</a>
+
+      <form class="form">
+
+        <fieldset class="form-group">
+          <legend>
+            <h1 class="heading-large">
+              Fonts
+            </h1>
+            <p class="body-text">
+              These are the fonts that we use.
+            </p>
+          </legend>
+
+          <h1 class="heading-medium">
+            Gov
+          </h1>
+
+          <ul class="list list-bullet">
+            <li><a href="https://drive.google.com/open?id=0B1ZlxWkPbjnsMERzbUpjU2JwRTA">GDS</a></li>
+            <p></p>
+            <li><a href="https://drive.google.com/open?id=0B1ZlxWkPbjnsNHBkTHBZaWY4b00">HMLR</a></li>
+          </ul>
+
+        </fieldset>
+
+      </form>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
