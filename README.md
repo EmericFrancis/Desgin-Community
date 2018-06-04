@@ -1,4 +1,4 @@
-#HMLR Design community
+## HMLR Design community
 
 ## About the site
 
