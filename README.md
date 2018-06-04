@@ -4,7 +4,8 @@ Go to the [GOV.UK Prototype Kit site](https://govuk-prototype-kit.herokuapp.com/
 
 ## About the prototype kit
 
-The prototype kit provides a simple way to make interactive prototypes that look like pages on GOV.UK. These prototypes can be used to show ideas to people you work with, and to do user research.
+This site is a space where HMLR designers can learn, share and collaborate with each other.  
+
 
 Read the [project principles](https://govuk-prototype-kit.herokuapp.com/docs/principles).
 
