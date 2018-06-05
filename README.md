@@ -2,7 +2,7 @@
 
 ## About the site
 
-The <a href = "https://design-and-content-community.herokuapp.com/homepage"> design and content community site </a> is a space where HMLR designers can learn, share and collaborate with each other.
+The <a href = "https://design-and-content-community.herokuapp.com"> design and content community site </a> is a space where HMLR designers can learn, share and collaborate with each other.
 
 This is a work in progress. Content will be updated regularly.
 
