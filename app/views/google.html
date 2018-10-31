@@ -1,85 +1,56 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  Question page
+    Design community
 {% endblock %}
 
 {% block content %}
 
-<style>
-#footer {display:none;}
-#global-header-bar {display:none;}
-.header-logo {display:none;}
-@font-face {font-family: Helvetica;}
-#content {color: #000000}
-h2 {color: black;}
-h1.homepage-header {font-size: 36px; font-weight: bold;}
-</style>
-
 <main id="content" role="main">
-  <div class="grid-row">
-    <div class="column-two-thirds">
-
-      <!-- Breadcrumbs -->
-      <div class="breadcrumbs">
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
         <ol>
-          <li><a href="/index">Home</a></li>
-          <li><a href="/starterguide">Starter guide</a></li>
-          <li> <a href="/google"> Google </a> <li>
+            <li><a href="/index">Design Community</a></li>
+            <li><a href="design-community">The community</a></li>
+            <li><a href="starter-guide">Starter kit</a></li>
+            <li>Google</li>
         </ol>
-      </div>
-
-      <form class="form">
-
-        <fieldset class="form-group">
-          <legend>
-            <h1 class="heading-large">
-              Google
-            </h1>
-            <p class="body-text">
-              To enable access to HM Land Registry Google groups and drives
-            </p>
-          </legend>
-
-          <h1 class="heading-medium">
-            Create a Google account
-          </h1>
-
-          <ul class="list list-bullet">
-            <li>You'll need to set up a Google account with your HM Land Registry email address.</li>
-            <p></p>
-            <li>Go to <a href="https://accounts.google.com/SignUpWithoutGmail">'Sign Up Without Gmail'</a> and create an account using your email in the format:
-            <p> </p>
-            firstname.lastname@landregistry.gov.uk</li>
-          </ul>
-
-          <h1 class="heading-medium">
-            Join Google groups
-          </h1>
-
-          <ul class="list list-bullet">
-            Use your new Google account to join <a href ="https://groups.google.com/a/digital.cabinet-office.gov.uk/forum/?hl=en-GB#!forum/digital-service-designers">the GDS design community. </a> </li>
-          </ul>
-
-          <h1 class="heading-medium">
-            Join Google drives
-          </h1>
-
-          <ul class="list list-bullet">
-            You should request access to the following Google drives: </li>
-            <p></p>
-            <li><a href="https://drive.google.com/drive/folders/0BzyxMk_wMFDeSEVMZUlzeXE1cUk">HM Land Registry</a></li>
-            <p></p>
-            <li><a href="https://drive.google.com/drive/folders/0B6RdtFhUpQF8TXFweVdZTW9NXzQ">User Centered Design</a></li>
-          </ul>
-
-
-        </fieldset>
-
-      </form>
-
     </div>
-  </div>
+
+    <div class="grid-row">
+        <div class="column-full">
+
+            <h1 class="heading-large">Google</h1>
+            <p class="body-text">
+                To enable access to HM Land Registry Google groups and drives
+            </p>
+
+            <h1 class="heading-medium">Create a Google account</h1>
+
+            <ul class="list list-bullet">
+                <li>You'll need to set up a Google account with your HM Land Registry email address.</li>
+                <li>Go to <a href="https://accounts.google.com/SignUpWithoutGmail">'Sign Up Without Gmail'</a> and create
+                    an account using your email in the format: <br>firstname.lastname@landregistry.gov.uk</li>
+            </ul>
+
+            <h1 class="heading-medium">Join Google groups</h1>
+
+            <ul class="list list-bullet">
+                <li>Use your new Google account to join the
+                    <a href ="https://groups.google.com/a/digital.cabinet-office.gov.uk/forum/?hl=en-GB#!forum/digital-service-designers">
+                        GDS design community.</a></li>
+            </ul>
+
+            <h1 class="heading-medium">Join Google drives</h1>
+
+            <ul class="list list-bullet">
+                <li>You should request access to the
+                    <a href="https://drive.google.com/drive/folders/0BzyxMk_wMFDeSEVMZUlzeXE1cUk">HM Land Registry</a> and the
+                    <a href="https://drive.google.com/drive/folders/0B6RdtFhUpQF8TXFweVdZTW9NXzQ">User Centered Design</a> drives.
+                </li>
+            </ul>
+        </div>
+    </div>
 </main>
 
 {% endblock %}

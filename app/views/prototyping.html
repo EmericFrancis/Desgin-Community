@@ -1,0 +1,184 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+    Design community
+{% endblock %}
+
+{% block content %}
+
+
+<main id="content" role="main">
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <ol>
+            <li><a href="/index">Design Community</a></li>
+            <li>Prototyping</li>
+        </ol>
+    </div>
+
+    <div class="grid-row">
+        <div class="column-two-thirds">
+            <h1 class="heading-xlarge">Prototyping</h1>
+            <p class="body-text">
+                We need prototypes to share and test designs out before creating the actual service. The GOV.UK service manual
+                explains why we <a href="https://www.gov.uk/service-manual/design/making-prototypes">make prototypes</a>. It
+                is also important to ensure we keep a history of why designs are iterated upon.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="grid-row">
+        <div class="column-two-thirds">
+            <div class="js-accordion-with-descriptions" data-module="accordion-with-descriptions">
+                <!-- stages of prototypes -->
+                <div class="subsection-wrapper">
+                    <div class="subsection js-subsection">
+                        <div class="subsection__header">
+                            <h2 class="subsection__title" id="stages">
+                                <button class="subsection__button js-subsection-button" aria-expanded="false" aria-controls="subsection_content_2">
+                                    Prototype fidelity
+                                </button>
+                            </h2>
+                            <span class="subsection__icon"></span>
+                        </div>
+
+                        <div class="subsection__content js-subsection-content js-hidden" id="subsection_content_2">
+                            <ul class="subsection__list">
+                                <li class="subsection__list-item">
+                                    <h3 class="heading-small">Low fidelity prototypes</h3>
+                                    <p>
+                                        These are quick, cheap and easy! Create paper prototypes to quickly share and
+                                        communicate ideas with other team members and designers. There are some
+                                        <a href="https://drive.google.com/drive/u/0/folders/0B6RdtFhUpQF8T1lfa3RsODFPUjQ">
+                                            GOV.UK templates</a> that can be printed and used.
+                                    </p>
+                                </li>
+
+                                <li class="subsection__list-item">
+                                    <h3 class="heading-small">Medium fidelity prototypes</h3>
+                                    <p>
+                                        Create these quickly in <a href="resources#axure">Axure</a>, or Sketch and InVision
+                                        and can be easily amended. We mainly use Axure and have a
+                                        <a href="https://drive.google.com/drive/u/1/folders/0B_uf_jUFJvV_am1JdkRtalU5Z00">
+                                        widget library</a> to get the correct look and feel.
+                                    </p>
+                                </li>
+                                <li class="subsection__list-item">
+                                    <h3 class="heading-small">High fidelity prototypes</h3>
+                                    <p>
+                                        There is a <a href="https://govuk-prototype-kit.herokuapp.com/docs">GOV.UK prototype kit</a>
+                                        that is used to create coded prototypes which give a more realistic interactive experience
+                                        for the user. If you've not used the kit before, there is a
+                                        <a href="https://docs.google.com/document/d/1qDkutvVb0FYmUGLMH0EG7bnuX5Ez-yD4IBPmhXqUxew/edit#heading=h.jn7vrtj0q2to">
+                                            tutorial</a> that can be completed to help you get started once you've got the kit
+                                        installed.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- prototype management -->
+                    <div class="subsection js-subsection">
+                        <div class="subsection__header">
+                            <h2 class="subsection__title" id="stages">
+                                <button class="subsection__button js-subsection-button" aria-expanded="false" aria-controls="subsection_content_2">
+                                    Prototype management
+                                </button>
+                            </h2>
+                            <p class="subsection__description">
+                                Pop some information in here about consistency with regards to versioning, change history,
+                                linking UR findings with designs & changes. As well as how we draw a line under a version
+                                to hand over to developers.
+                            </p>
+                            <span class="subsection__icon"></span>
+                        </div>
+
+                        <div class="subsection__content js-subsection-content js-hidden" id="subsection_content_2">
+                            <ul class="subsection__list">
+                                <li class="subsection__list-item">
+                                    <h3 class="heading-small">Service history</h3>
+                                    <p>What was done and why... can use <a href="https://gallery.io/">gallery.io</a></p>
+                                </li>
+                                <li class="subsection__list-item">
+                                    <h3 class="heading-small">Versioning</h3>
+                                    <p>How to</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Content is important -->
+                    <div class="subsection js-subsection">
+                        <div class="subsection__header">
+                            <h2 class="subsection__title" id="stages">
+                                <button class="subsection__button js-subsection-button" aria-expanded="false" aria-controls="subsection_content_2">
+                                    Content is important
+                                </button>
+                            </h2>
+                            <p class="subsection__description">
+                                Information on content - best get someone else to write it! Have links to Plain English writing guide and
+                                Writing for GOV.UK to add somewhere relevant as well.
+                            </p>
+                            <span class="subsection__icon"></span>
+                        </div>
+
+                        <div class="subsection__content js-subsection-content js-hidden" id="subsection_content_2">
+                            <ul class="subsection__list">
+                                <li class="subsection__list-item">
+                                    <h3 class="heading-small">HMLR language guide</h3>
+                                    <p>What is this?!</p>
+                                </li>
+                                <li class="subsection__list-item">
+                                    <h3 class="heading-small">Presentations</h3>
+                                    <p>A list of?</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- how to get the look -->
+                    <div class="subsection js-subsection">
+                        <div class="subsection__header">
+                            <h2 class="subsection__title" id="stages">
+                                <button class="subsection__button js-subsection-button" aria-expanded="false" aria-controls="subsection_content_2">
+                                    How to get the look
+                                </button>
+                            </h2>
+                            <p class="subsection__description">
+                                Information about look and feel and consistency etc.
+                            </p>
+                            <span class="subsection__icon"></span>
+                        </div>
+
+                        <div class="subsection__content js-subsection-content js-hidden" id="subsection_content_2">
+                            <ul class="subsection__list">
+                                <li class="subsection__list-item">
+                                    <h3 class="heading-small">HMLR design princples</h3>
+                                    <p></p>
+                                </li>
+                                <li class="subsection__list-item">
+                                    <h3 class="heading-small">Style guide</h3>
+                                    <p></p>
+                                </li>
+                                <li class="subsection__list-item">
+                                    <h3 class="heading-small">Fonts</h3>
+                                    <p></p>
+                                </li>
+                                <li class="subsection__list-item">
+                                    <h3 class="heading-small">Internal pattern library</h3>
+                                    <p>Andy's stuff</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+{% endblock %}

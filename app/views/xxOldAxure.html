@@ -1,0 +1,143 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<style>
+#footer {display:none;}
+#global-header-bar {display:none;}
+.header-logo {display:none;}
+@font-face {font-family: Helvetica;}
+#content {color: #000000}
+h2 {color: black;}
+h1.homepage-header {font-size: 36px; font-weight: bold;}
+</style>
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <!-- Breadcrumbs -->
+      <div class="breadcrumbs">
+        <ol>
+          <li><a href="/index">Home</a></li>
+          <li><a href="/starterguide">Starter guide</a></li>
+          <li> <a href="/Axure"> Axure </a> <li>
+        </ol>
+      </div>
+
+      <form class="form">
+
+        <fieldset class="form-group">
+          <legend>
+            <h1 class="heading-large">
+              Axure
+            </h1>
+            <p class="body-text">
+              To enable running of Axure RP Pro for wireframing and prototpes
+            </p>
+          </legend>
+
+          <h1 class="heading-medium">
+            Apply for licence
+          </h1>
+
+          <ul class="list list-bullet">
+            <li>To request installation of the software you will need to raise a Request for Service via 'MySelfService'.</li>
+            <p></p>
+            <li>Go to the 'Start' menu and select 'All Programs'.  'MySelfService' is under #F6 MY REQUEST HUB'.</li>
+            <p></p>
+            <p></p>
+            <img src="/public/images/startmenu.png" alt="Start Menu">
+            <p></p>
+            <p></p>
+            <li>You'll then see the main option screen of the mySelfService.  Click on 'Standard IT request' and then type 'software' to find the 'Software install/ Renew/ Removal or Transfer Request' option.</li>
+            <p></p>
+            <p></p>
+            <img src="/public/images/myselfservice.png" alt="my self service" style="width:1000px;height:500px;">
+            <p></p>
+            <p></p>
+            <li>Click on this option, fill out your details and click 'Raise Request'.</li>
+            <p></p>
+            <p></p>
+            <img src="/public/images/remoteaccess.png" alt="remote access" style="width:1000px;height:500px;">
+            <p></p>
+            <p></p>
+            <li>You'll receive an email with the request number which you can use in the Marvel system to check progress of your request.</li>
+            <p></p>
+          </ul>
+
+          <h1 class="heading-medium">
+            Download Axure
+          </h1>
+
+          <ul class="list list-bullet">
+            <li>Go to <a href="www.axure.com">www.axure.com</a> and click on the center 'Download Free Trial' option.</li>
+            <p></p>
+            <li>This will download a 30 day free trial for you to install on the Macbook whilst you wait for the RFS to complete.</li>
+            <p></p>
+            <li>Once your RFS has provided you with a licence key and licensee name. Open Axure and open 'Help - Manage licence'.</li>
+            <p></p>
+            <p></p>
+            <img src="/public/images/axure1.png" alt="axure1" style="width:1000px;height:500px;">
+            <p></p>
+            <p></p>
+            <li>Input the name and key and this will activate your version of Axure.</li>
+            <p></p>
+          </ul>
+
+          <h1 class="heading-medium">
+            GDS Widget library
+          </h1>
+
+          <ul class="list list-bullet">
+            <li>To install the Axure library containing GDS style widgets to use in your prototypes go to <a href="https://drive.google.com/drive/folders/0B_uf_jUFJvV_am1JdkRtalU5Z00">https://drive.google.com/drive/folders/0B_uf_jUFJvV_am1JdkRtalU5Z00</a></li>
+            <p></p>
+            <li>and download the GDS.rplib file.  Then in Axure click the icon beside Libraries in the bottom left portion of the screen (shown below), click 'Load library' and navigate to the downloaded file.  This will then add a 'GDS' option to the library dropdown options.</li>
+            <p></p>
+            <p></p>
+            <img src="/public/images/axure2.png" alt="axure2" style="width:444px;height:385px;">
+            <p></p>
+            <p></p>
+            <li>The GDS widget library is an active document so if you need a widget that is not present please create it and add it to the library for others to use.</li>
+            <p></p>
+            <li>Instructions for this are shown here - <a href="https://www.axure.com/support/reference/widget-libraries">https://www.axure.com/support/reference/widget-libraries</a></li>
+            <p></p>
+          </ul>
+
+          <h1 class="heading-medium">
+            New fonts
+          </h1>
+
+          <ul class="list list-bullet">
+            <li>GDS and HM Land registry both have their own fonts that you'll need to install to use within Axure as well as in other applications.  The GDS font is 'GDSTransportWebsite' and the HM Land registry font is 'GEO'.</li>
+            <p></p>
+            <li>To install the GDS font go to <a href="https://drive.google.com/drive/folders/0B1ZlxWkPbjnsMERzbUpjU2JwRTA">https://drive.google.com/drive/folders/0B1ZlxWkPbjnsMERzbUpjU2JwRTA</a></li>
+            <p></p>
+            <li>Download the GDSTransportwebsite-Bold.zip and the GDSTransportwebsite.zip files and unzip.</li>
+            <p></p>
+            <li>Then in each unzipped folder go into 'Fonts', double click on the .ttf file and click the 'install font' button, shown below.</li>
+            <p></p>
+            <p></p>
+            <img src="/public/images/axure3.png" alt="axure3" style="width:400px;height:385px;">
+            <p></p>
+            <p></p>
+            <li>To install the HM Land Registry font go to <a href="https://drive.google.com/drive/folders/0B1ZlxWkPbjnsNHBkTHBZaWY4b00">https://drive.google.com/drive/folders/0B1ZlxWkPbjnsNHBkTHBZaWY4b00</a></li>
+            <p></p>
+            <li>Download each .ttf file and install as above.</li>
+            <p></p>
+          </ul>
+
+        </fieldset>
+
+
+      </form>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

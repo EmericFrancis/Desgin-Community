@@ -1,79 +1,39 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  Question page
+  Design community
 {% endblock %}
 
 {% block content %}
 
-<style>
-#footer {display:none;}
-#global-header-bar {display:none;}
-.header-logo {display:none;}
-@font-face {font-family: Helvetica;}
-#content {color: #000000}
-h2 {color: black;}
-h1.homepage-header {font-size: 36px; font-weight: bold;}
-</style>
-
 <main id="content" role="main">
-  <div class="grid-row">
-    <div class="column-two-thirds">
-
-      <!-- Breadcrumbs -->
-      <div class="breadcrumbs">
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
         <ol>
-          <li><a href="/index">Home</a></li>
-          <li><a href="/starterguide">Starter guide</a></li>
-          <li> <a href="/github"> GitHub </a> <li>
+            <li><a href="/index">Design Community</a></li>
+            <li><a href="design-community">The community</a></li>
+            <li><a href="starter-guide">Starter kit</a></li>
+            <li>Github</li>
         </ol>
-      </div>
-
-      <form class="form">
-
-        <fieldset class="form-group">
-          <legend>
-            <h1 class="heading-large">
-              Github
-            </h1>
-            <p class="body-text">
-              To enable access to GitHub version control software
-            </p>
-          </legend>
-
-          <h1 class="heading-medium">
-            Create GitHub account
-          </h1>
-
-          <ul class="list list-bullet">
-            <li>xxxx</li>
-            <p></p>
-            <li>xxxx</li>
-            <p></p>
-            <li>xxxx</li>
-            <p></p>
-          </ul>
-
-          <h1 class="heading-medium">
-            Training
-          </h1>
-
-          <ul class="list list-bullet">
-            <li>xxxx</li>
-            <p></p>
-            <li>xxxx</li>
-            <p></p>
-            <li>xxxx</li>
-            <p></p>
-          </ul>
-
-
-        </fieldset>
-
-      </form>
-
     </div>
-  </div>
+
+    <div class="grid-row">
+        <div class="column-full">
+
+            <h1 class="heading-large">Github</h1>
+            <p class="body-text">
+                To enable access to GitHub version control software
+            </p>
+
+            <h1 class="heading-medium">Create GitHub account</h1>
+
+            <ul class="list list-bullet">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
 </main>
 
 {% endblock %}

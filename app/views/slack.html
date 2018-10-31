@@ -1,76 +1,47 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  Question page
+  Design community
 {% endblock %}
 
 {% block content %}
 
-<style>
-#footer {display:none;}
-#global-header-bar {display:none;}
-.header-logo {display:none;}
-@font-face {font-family: Helvetica;}
-#content {color: #000000}
-h2 {color: black;}
-h1.homepage-header {font-size: 36px; font-weight: bold;}
-</style>
-
 <main id="content" role="main">
+  <!-- Breadcrumbs -->
+  <div class="breadcrumbs">
+    <ol>
+      <li><a href="/index">Design Community</a></li>
+      <li><a href="design-community">The community</a></li>
+      <li><a href="starter-guide">Starter kit</a></li>
+      <li>Slack</li>
+    </ol>
+  </div>
+
+
   <div class="grid-row">
-    <div class="column-two-thirds">
+    <div class="column-full">
 
-      <!-- Breadcrumbs -->
-      <div class="breadcrumbs">
-        <ol>
-          <li><a href="/index">Home</a></li>
-          <li><a href="/starterguide">Starter guide</a></li>
-          <li> <a href="/slack"> Slack </a> <li>
-        </ol>
-      </div>
+      <h1 class="heading-large">Slack</h1>
+      <p class="body-text">
+          Get started on Slack for collaborating and communicating
+      </p>
 
-      <form class="form">
+      <h1 class="heading-medium">Create a Slack account</h1>
 
-        <fieldset class="form-group">
-          <legend>
-            <h1 class="heading-large">
-              Slack
-            </h1>
-            <p class="body-text">
-                Get started on Slack for collaborating and communicating
-            </p>
-          </legend>
+      <ul class="list list-bullet">
+        <li>Go to <a href="https://slack.com">Slack.com</a> and sign up with your work email address for a free account.</li>
+        <li>You'll then be taken to a new page where you can click 'Find your Slack workspace'.</li>
+        <li>Click this link and you'll get a confirmation email. </li>
+        <li>If you don't have remote access to your outlook on your Macbook, you'll need to forward any confirmation
+          emails to an email account that you can access on your Macbook.</li>
+      </ul>
 
-          <h1 class="heading-medium">
-            Create a Slack account
-          </h1>
+      <h1 class="heading-medium">Join Slack workspaces</h1>
 
-          <ul class="list list-bullet">
-            <li>Go to <a href="https://slack.com">Slack.com</a> and sign up with your work email address for a free account.</li>
-            <p></p>
-            <li>You'll then be taken to a new page where you can click 'Find your Slack workspace'.</li>
-            <p></p>
-            <li>Click this link and you'll get a confirmation email. </li>
-            <p></p>
-            <li>If you don't have remote access to your outlook on your Macbook, you'll need to forward any confirmation emails to an email account that you can access on your Macbook.</li>
-          </ul>
-
-          <h1 class="heading-medium">
-            Join Slack workspaces
-          </h1>
-
-          <ul class="list list-bullet">
-            <li>You'll need to join the following workspaces</li>
-            <p></p>
-            <li>landregistry.slack.com</li>
-            <li>ukgovernmentdigital.slack.com</li>
-          </ul>
-
-
-        </fieldset>
-
-      </form>
-
+      <ul class="list list-bullet">
+        <li>You'll need to join the <a href="https://landregistry.slack.com">landregistry.slack.com</a> and the
+          <a href="https://ukgovernmentdigital.slack.com/">ukgovernmentdigital.slack.com</a> workspaces.</li>
+      </ul>
     </div>
   </div>
 </main>
