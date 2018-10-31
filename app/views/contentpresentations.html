@@ -1,73 +1,49 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  Content presentations
+    Design community
 {% endblock %}
 
 {% block content %}
 
-<style>
-#footer {display:none;}
-#global-header-bar {display:none;}
-.header-logo {display:none;}
-@font-face {font-family: Helvetica;}
-#content {color: #000000}
-h2 {color: black;}
-h1.homepage-header {font-size: 36px; font-weight: bold;}
-</style>
 
 <main id="content" role="main">
-  <div class="grid-row">
-    <div class="column-two-thirds">
-
-      <!-- Breadcrumbs -->
-      <div class="breadcrumbs">
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
         <ol>
-          <li><a href="/index">Home</a></li>
-          <li> <a href="/contentpresentations"> Content design presentations </a> <li>
+            <li><a href="/index">Design community</a></li>
+            <li>Content presentations</li>
         </ol>
-      </div>
-
-      <form class="form">
-
-        <fieldset class="form-group">
-          <legend>
-            <h1 class="heading-large">
-              Content design presentations
-            </h1>
-            <p class="body-text">
-
-            </p>
-          </legend>
-
-
-          <ul class="list list-bullet">
-            <li class="subsection__list-item">
-              <a href="https://docs.google.com/presentation/d/1RPRb6xrv5RGvj1x4zefKPe01ZZpKcOuKS2gLOWD1Hm4/edit?usp=sharing"> Writing in Plain English</a>
-            </li>
-            <p> </p>
-            <li class="subsection__list-item">
-              <a href="https://docs.google.com/presentation/d/17LKe9-SGrSbtYtYUzOlBsb4oor440hgi7TgYBdxvdBU/edit?usp=sharing"> The Inverted Pyramid</a>
-            </li>
-            <p> </p>
-            <li class="subsection__list-item">
-            <a href="https://docs.google.com/presentation/d/10qzKln7qr4tusY87dxZMfR5urX7ATSN7lpfQ03DHQ0I/edit#slide=id.p1"> Words matter </a>
-            <p> </p>
-            <li class="subsection__list-item">
-            <a href="https://docs.google.com/presentation/d/1-NXFaIVKhKbPIC-mpRAjWy9GOBmv1gUmAOBEMHGVBmM/edit#slide=id.g37b181f55e_8_0"> Privacy by design </a>
-            </li>
-            <p> </p>
-
-
-
-          </ul>
-
-        </fieldset>
-
-      </form>
-
     </div>
-  </div>
+
+    <div class="grid-row">
+        <div class="column-two-thirds">
+            <h1 class="heading-large">Content presentations</h1>
+            <p class="body-text">
+                Some presentation created by members of the community.
+            </p>
+
+
+            <ul class="list list-bullet">
+                <li class="subsection__list-item">
+                    <a href="https://docs.google.com/presentation/d/1RPRb6xrv5RGvj1x4zefKPe01ZZpKcOuKS2gLOWD1Hm4/edit?usp=sharing">
+                        Writing in Plain English</a>
+                </li>
+                <li class="subsection__list-item">
+                    <a href="https://docs.google.com/presentation/d/17LKe9-SGrSbtYtYUzOlBsb4oor440hgi7TgYBdxvdBU/edit?usp=sharing">
+                        The Inverted Pyramid</a>
+                </li>
+                <li class="subsection__list-item">
+                    <a href="https://docs.google.com/presentation/d/10qzKln7qr4tusY87dxZMfR5urX7ATSN7lpfQ03DHQ0I/edit#slide=id.p1">
+                        Words matter</a>
+                </li>
+                <li class="subsection__list-item">
+                    <a href="https://docs.google.com/presentation/d/1-NXFaIVKhKbPIC-mpRAjWy9GOBmv1gUmAOBEMHGVBmM/edit#slide=id.g37b181f55e_8_0">
+                        Privacy by design</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </main>
 
 {% endblock %}

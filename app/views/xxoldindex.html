@@ -1,0 +1,284 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Design community
+{% endblock %}
+
+{% block content %}
+
+<style>
+#footer {display:none;}
+#global-header-bar {display:none;}
+/* header#global-header {background-color: #035da5;} */
+.header-wrapper {background-color: #035da5;}
+.header-logo {display:none;}
+@font-face {font-family: Helvetica;}
+h1.homepage-header {font-size: 36px; font-weight: bold;}
+</style>
+
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-2775f99eaec64ff8121bfbfb3eb67b0c2b4b7c3fc78d25da30e12db2a09d30d6.css" crossorigin="anonymous" integrity="sha256-J3X5nq7GT/gSG/v7PrZ7DCtLfD/HjSXaMOEtsqCdMNY=">
+        <link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/service-manual-frontend/application-904dd93114da64cd8a7d7f1adae0c1f5ac1685c15ad3004e17ac3a4f99ca306b.css">
+    </head>
+
+    <main id="content" role="main">
+        <div class="grid-row">
+            <body class="js-enabled">
+                <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+                <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+                <div id="skiplink-container">
+                    <div>
+                        <a href="#content" class="skiplink">Skip to main content</a>
+                    </div>
+                </div>
+
+                <div id="wrapper" class="direction-ltr">
+                    <main role="main" id="content" lang="en">
+                        <div class="full-page-width-wrapper">
+
+                            <!-- Header and info -->
+                            <div class="grid-row">
+                                <div class="column-two-thirds">
+                                    <div class="page-header">
+                                        <h1 class="homepage-header">HMLR Design community</h1>
+                                        <p>
+                                            This website is a work in progress.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+        <!-- Content categories -->
+                            <div class="grid-row">
+                                <div class="column-two-thirds">
+                                    <div class="js-accordion-with-descriptions" data-module="accordion-with-descriptions">
+                                        <div class="subsection-controls js-subsection-controls">
+
+                                        </div>
+                                        <div class="subsection-wrapper">
+
+                  <!-- Team -->
+                                            <div class="subsection js-subsection">
+                                                <div class="subsection__header">
+                                                    <h2 class="subsection__title" id="Team">
+                                                        <button class="subsection__button js-subsection-button" aria-expanded="false" aria-controls="subsection_content_2">
+                                                            Team
+                                                        </button>
+                                                    </h2>
+                                                    <p class="subsection__description">
+                                                        Who's who, blogs and other people stuff.
+                                                    </p>
+                                                    <span class="subsection__icon"></span>
+                                                </div>
+                                                <div class="subsection__content js-subsection-content js-hidden" id="subsection_content_2">
+                                                    <ul class="subsection__list">
+                                                        <li class="subsection__list-item">
+                                                            <a href="meettheteam">Meet the team</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                    <!-- Tools -->
+                                            <div class="subsection js-subsection">
+                                                <div class="subsection__header">
+                                                    <h2 class="subsection__title" id="Tools">
+                                                        <button class="subsection__button js-subsection-button" aria-expanded="false" aria-controls="subsection_content_1">
+                                                            Tools
+                                                        </button>
+                                                    </h2>
+                                                    <p class="subsection__description">
+                                                        Tools to get you started.
+                                                    </p>
+                                                    <span class="subsection__icon"></span>
+                                                </div>
+
+                                                <div class="subsection__content js-subsection-content js-hidden" id="subsection_content_1">
+                                                    <ul class="subsection__list">
+                                                        <li class="subsection__list-item">
+                                                            <a href="starterguide.html">Starter guide</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="https://drive.google.com/drive/u/1/folders/0B_uf_jUFJvV_am1JdkRtalU5Z00">Axure widgets</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="fonts">Fonts</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="https://atom.io/">Atom Text editor</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                    <!-- Prototyping -->
+                                            <div class="js-subsection subsection--is-open">
+                                                <div class="subsection__header">
+                                                    <h2 class="subsection__title" id="Prototyping">
+                                                        <button class="subsection__button js-subsection-button" aria-expanded="true" aria-controls="subsection_content_0">
+                                                            Prototyping
+                                                        </button>
+                                                    </h2>
+                                                    <p class="subsection__description">
+                                                        Prototyping process and stuff.
+                                                    </p>
+                                                    <span class="subsection__icon"></span>
+                                                </div>
+                                                <div class="subsection__content js-subsection-content" id="subsection_content_0">
+                                                    <ul class="subsection__list">
+                                                        <li class="subsection__list-item">
+                                                            <a href="prototype-tutorials">Gov prototype kit guide</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="github-guide">Git guide</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="heroku-guide">Heroku guide</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction">Using node</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="https://www.gitkraken.com/">Git Kraken</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="https://desktop.github.com/">Github Desktop</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="https://www.heroku.com/">Heroku</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                    <!-- Content -->
+                                            <div class="subsection js-subsection">
+                                                <div class="subsection__header">
+                                                    <h2 class="subsection__title" id="Content_design">
+                                                        <button class="subsection__button js-subsection-button" aria-expanded="false" aria-controls="subsection_content_3">
+                                                            Content design
+                                                        </button>
+                                                    </h2>
+                                                    <p class="subsection__description">
+                                                        Useful tools to help you design content.
+                                                    </p>
+                                                    <span class="subsection__icon"></span>
+                                                </div>
+                                                <div class="subsection__content js-subsection-content js-hidden" id="subsection_content_3">
+                                                    <ul class="subsection__list">
+                                                        <li class="subsection__list-item">
+                                                            <a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk">Writing for GOV.UK</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            Use an <a href="https://www.acronymfinder.com/CPD.html">acronym finder </a> for when you have no idea what it means!
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="http://www.plainenglish.co.uk/files/howto.pdf">Plain English writing guide</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="http://www.plainenglish.co.uk/files/alternative.pdf"> A-Z of alternative words</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="https://docs.google.com/document/d/1zPqSBnh_3tMW4m3uBCtwDwJj-j2o5gIfPRm-1hmuMpQ/edit"> HMLR operations jargon buster</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            Use <a href="https://trends.google.com/trends/">Google Trends</a> to look at the frequency of different search terms over time
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="contentpresentations">Content design presentations</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                    <!-- Principles -->
+                                            <div class="subsection js-subsection">
+                                                <div class="subsection__header">
+                                                    <h2 class="subsection__title" id="Principles">
+                                                        <button class="subsection__button js-subsection-button" aria-expanded="false" aria-controls="subsection_content_2">
+                                                            Design principles
+                                                        </button>
+                                                    </h2>
+                                                    <p class="subsection__description">
+                                                        Design best practices.
+                                                    </p>
+                                                    <span class="subsection__icon"></span>
+                                                </div>
+                                                <div class="subsection__content js-subsection-content js-hidden" id="subsection_content_2">
+                                                    <ul class="subsection__list">
+                                                        <li class="subsection__list-item">
+                                                            <a href="https://www.gov.uk/guidance/government-design-principles">GDS "Ten Commandments"</a>
+                                                        </li>
+                                                        <li class="subsection__list-item">
+                                                            <a href="https://www.gov.uk/service-manual/service-standard">Digital Service Standard</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                    <!-- Library -->
+                                            <div class="subsection js-subsection">
+                                                <div class="subsection__header">
+                                                    <h2 class="subsection__title" id="Library">
+                                                        <button class="subsection__button js-subsection-button" aria-expanded="false" aria-controls="subsection_content_2">
+                                                            Library
+                                                        </button>
+                                                    </h2>
+                                                    <p class="subsection__description">
+                                                        Interesting links and articles.
+                                                    </p>
+                                                    <span class="subsection__icon"></span>
+                                                </div>
+                                                <div class="subsection__content js-subsection-content js-hidden" id="subsection_content_2">
+                                                    <ul class="subsection__list">
+                                                        <li class="subsection__list-item">
+                                                            <a href="">These are some great learning materials.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- column-two-thirds -->
+
+          <!-- Join the community -->
+                                <div class="column-third">
+                                    <div class="related-item">
+                                        <h2 class="related-item__title" id="related-communities">
+                                            Join the community
+                                        </h2>
+                                        <p class="related-item__description">
+                                            Find out what the Design community does and how to get involved.
+                                        </p>
+                                        <nav role="navigation" aria-labelledby="related-communities" class="related-communities">
+                                            <ul class="related-item__list">
+                                                <li class="related-item__list-item">
+                                                    <a href="/service-manual/communities/design-community">Design community</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div> <!-- grid-row -->
+                        </div> <!-- full-page-width-wrapper -->
+                    </main>
+                </div> <!-- direction-ltr -->
+            </body>
+        </div> <!-- grid-row -->
+    </main>
+
+    <div id="global-app-error" class="app-error hidden"></div>
+    <!-- <script src="https://assets.publishing.service.gov.uk/static/govuk-template-d4ba5ab8f60c9df5c733e7d3c7c469ff93dc6b64d2b2a8feb94afa8f77c66193.js" crossorigin="anonymous" integrity="sha256-1LpauPYMnfXHM+fTx8Rp/5Pca2TSsqj+uUr6j3fGYZM="></script> -->
+    <script src="https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-5f1157a433c276bcb98f3651434f7cb1f49ff45fe2ec2808b46ee088e61159b5.js" crossorigin="anonymous" integrity="sha256-XxFXpDPCdry5jzZRQ098sfSf9F/i7CgItG7giOYRWbU="></script>
+    <script src="https://assets.publishing.service.gov.uk/static/header-footer-only-fafb5f177839ed067265c412a7b02814c4873d689ce7ad001bd97e323b1f2287.js" crossorigin="anonymous" integrity="sha256-+vtfF3g57QZyZcQSp7AoFMSHPWic560AG9l+MjsfIoc="></script>
+    <!-- <script src="https://assets.publishing.service.gov.uk/static/surveys-0d86371aa3b7454b07a5045a026cf00fc7c405bff02e06be7d4703391c422f23.js" crossorigin="anonymous" integrity="sha256-DYY3GqO3RUsHpQRaAmzwD8fEBb/wLga+fUcDORxCLyM="></script> -->
+    <!-- <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script> -->
+    <script src="https://assets.publishing.service.gov.uk/service-manual-frontend/application-8545e3ada12017a9eb4a218c12237c0ab456450b5466855a306d20f666dff77d.js"></script>
+
+</html>
+
+
+{% endblock %}

@@ -1,83 +1,40 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  Question page
+  Design community
 {% endblock %}
 
 {% block content %}
 
-<style>
-#footer {display:none;}
-#global-header-bar {display:none;}
-.header-logo {display:none;}
-@font-face {font-family: Helvetica;}
-#content {color: #000000}
-h2 {color: black;}
-h1.homepage-header {font-size: 36px; font-weight: bold;}
-</style>
-
 <main id="content" role="main">
-  <div class="grid-row">
-    <div class="column-two-thirds">
-
-      <!-- Breadcrumbs -->
-      <div class="breadcrumbs">
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
         <ol>
-          <li><a href="/index">Home</a></li>
-          <li><a href="/starterguide">Starter guide</a></li>
-          <li> <a href="/heroku"> Heroku </a> <li>
+            <li><a href="/index">Design Community</a></li>
+            <li><a href="design-community">The community</a></li>
+            <li><a href="starter-guide">Starter kit</a></li>
+            <li>Heroku</li>
         </ol>
-      </div>
-
-      <form class="form">
-
-        <fieldset class="form-group">
-          <legend>
-            <h1 class="heading-large">
-              Heroku
-            </h1>
-            <p class="body-text">
-              Access to the web hosting application.
-            </p>
-          </legend>
-
-          <h1 class="heading-medium">
-            Create Heroku account
-          </h1>
-
-          <ul class="list list-bullet">
-            <li>xxxx</li>
-            <p></p>
-            <li>xxxx</li>
-            <p></p>
-            <li>xxxx</li>
-            <p></p>
-          </ul>
-
-          <h1 id="training" class="heading-medium">
-            Training
-          </h1>
-
-          <ul class="list list-bullet">
-            <li>xxxx</li>
-            <p></p>
-            <li>xxxx</li>
-            <p></p>
-            <li>xxxx</li>
-            <p></p>
-          </ul>
-
-
-        </fieldset>
-
-        <div class="form-group">
-          <input class="button" type="submit" value="Continue">
-        </div>
-
-      </form>
-
     </div>
-  </div>
+
+    <div class="grid-row">
+        <div class="column-full">
+
+            <h1 class="heading-large">Heroku</h1>
+            <p class="body-text">Access to the web hosting application.</p>
+
+            <h1 class="heading-medium">Create Heroku account</h1>
+
+            <ul class="list list-bullet">
+                <li></li>
+                <p></p>
+                <li></li>
+                <p></p>
+                <li></li>
+                <p></p>
+            </ul>
+        </div>
+    </div>
 </main>
 
 {% endblock %}

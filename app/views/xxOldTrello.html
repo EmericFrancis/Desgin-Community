@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<style>
+#footer {display:none;}
+#global-header-bar {display:none;}
+.header-logo {display:none;}
+@font-face {font-family: Helvetica;}
+#content {color: #000000}
+h2 {color: black;}
+h1.homepage-header {font-size: 36px; font-weight: bold;}
+</style>
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <!-- Breadcrumbs -->
+      <div class="breadcrumbs">
+        <ol>
+          <li><a href="/index">Home</a></li>
+          <li><a href="/starterguide">Starter guide</a></li>
+          <li> <a href="/trello"> Trello </a> <li>
+        </ol>
+      </div>
+
+      <form class="form">
+
+        <fieldset class="form-group">
+          <legend>
+            <h1 class="heading-large">
+              Trello
+            </h1>
+            <p class="body-text">
+              To enable access to the project management application
+            </p>
+          </legend>
+
+          <h1 class="heading-medium">
+            Create Trello account
+          </h1>
+
+          <ul class="list list-bullet">
+            <li>Go to <a href="https://trello.com">Trello.com</a> and sign up to get a free account.</li>
+            <p></p>
+          </ul>
+
+          <h1 class="heading-medium">
+            Join Trello boards
+          </h1>
+
+          <ul class="list list-bullet">
+            <li>You will then need to join the following boards.  For the 'Design and Content Community of Practice' and 'Design Links' boards you will need to have an email invitation.</li>
+            <p></p>
+            <li><a href="https://trello.com/b/7UI1MjDT/design">Design</a></li>
+            <li><a href="https://trello.com/b/OMEDs2tR/design-and-content-community-of-practice">Design and content community of practice</a></li>
+            <li><a href="https://trello.com/b/OMEDs2tR/design-and-content-community-of-practice">Design links</a></li>
+          </ul>
+
+
+        </fieldset>
+
+      </form>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

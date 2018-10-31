@@ -1,0 +1,105 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<style>
+#footer {display:none;}
+#global-header-bar {display:none;}
+.header-logo {display:none;}
+@font-face {font-family: Helvetica;}
+#content {color: #000000}
+h2 {color: black;}
+h1.homepage-header {font-size: 36px; font-weight: bold;}
+</style>
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <!-- Breadcrumbs -->
+      <div class="breadcrumbs">
+        <ol>
+          <li><a href="/index">Home</a></li>
+          <li><a href="/starterguide">Starter guide</a></li>
+          <li> <a href="/omnigraffle"> Omnigraffle </a> <li>
+        </ol>
+      </div>
+
+      <form class="form">
+
+        <fieldset class="form-group">
+          <legend>
+            <h1 class="heading-large">
+              Omnigraffle
+            </h1>
+            <p class="body-text">
+              Get started with a digital illustration application.
+            </p>
+          </legend>
+
+          <h1 class="heading-medium">
+            Apply for licence
+          </h1>
+
+          <ul class="list list-bullet">
+            <li>To request installation of the software you'll need to raise a 'Request for Service (RFS)' via 'mySelfService' on HMLR's intranet.</li>
+            <p></p>
+            <li>Go to the 'Start' menu and select 'All Programs'.'mySelfService' is under #F6 'MY REQUEST HUB'.</li>
+            <p></p>
+            <p></p>
+            <img src="/public/images/startmenu.png" alt="Start Menu">
+            <p></p>
+            <p></p>
+            <li>You'll then see the main option screen of the mySelfService.  Click on 'Standard IT request' and then type 'software' to find the 'Software install/ Renew/ Removal or Transfer Request' option.</li>
+            <p></p>
+            <p></p>
+            <img src="/public/images/myselfservice.png" alt="my self service" style="width:1000px;height:500px;">
+            <p></p>
+            <p></p>
+            <li>Click on this option, fill out your details and click 'Raise Request'.</li>
+            <p></p>
+            <p></p>
+            <img src="/public/images/remoteaccess.png" alt="remote access" style="width:1000px;height:500px;">
+            <p></p>
+            <p></p>
+            <li>You'll receive an email with the request number which you can use in the Marvel system to check progress of your request.</li>
+            <p></p>
+          </ul>
+
+          <h1 class="heading-medium">
+            Download Omnigraffle
+          </h1>
+
+          <ul class="list list-bullet">
+            <li>Go to www.omnigroup.com/omnigraffle and click on the centre 'Free Trial' option.</li>
+            <p></p>
+            <li>This will download a 14 day free trial for you to install on the Macbook whilst you wait for the RFS to complete.</li>
+            <p></p>
+            <li>Once your RFS has completed you'll be provided with an exchange code.</li>
+            <p></p>
+            <li>You'll then need to visit 'application-systems.co.uk/exchange' and input this code.</li>
+            <p> </p>
+            <li>You'll then be emailed a personal licence key which you can input into Omnigraffle.</li>
+            <p></p>
+            <li>Open Omnigraffle and click 'Omnigraffle - Licences' to input your personal licence key and make your version of Omnigraffle official.</li>
+            <p></p>
+            <p></p>
+            <img src="/public/images/omnigraffle1.png" alt="omnigraffle11" style="width:1000px;height:500px;">
+            <p></p>
+            <p></p>
+          </ul>
+
+
+        </fieldset>
+
+      </form>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
